@@ -37,43 +37,30 @@ Create a functional React component called `Counter` that displays a count and h
 4. **Styling the Component**:
    - Use inline styles or a CSS file to style the component for better visual appeal (optional).
 
-### Example Code
+## FAQs
 
-```jsx
-import React, { useState } from 'react';
+### 1. What is the `useState` hook?
 
-const Counter = () => {
-  const [count, setCount] = useState(0);
+The `useState` hook is a special function in React that allows you to add state management to your functional components. It returns an array with two elements: the current state value and a function to update it.
 
-  const increment = () => setCount(count + 1);
-  const decrement = () => setCount(count > 0 ? count - 1 : 0);
+### 2. How do I prevent the count from going below 0?
 
-  return (
-    <div style={styles.container}>
-      <h1 style={styles.count}>{count}</h1>
-      <button style={styles.button} onClick={increment}>Increment</button>
-      <button style={styles.button} onClick={decrement}>Decrement</button>
-    </div>
-  );
-};
+In the `decrement` function, you can add a condition to check if the current count is greater than 0 before decrementing it. This ensures that the count does not go below 0.
 
-const styles = {
-  container: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    marginTop: '50px',
-  },
-  count: {
-    fontSize: '48px',
-    marginBottom: '20px',
-  },
-  button: {
-    fontSize: '18px',
-    padding: '10px 20px',
-    margin: '5px',
-    cursor: 'pointer',
-  },
-};
+### 3. Can I use CSS for styling instead of inline styles?
 
-export default Counter;
+Yes, you can use either inline styles or a separate CSS file for styling. Inline styles are used in the example for simplicity, but using a CSS file is perfectly acceptable and often preferred for larger projects.
+
+### 4. Do I need to handle edge cases, like large numbers?
+
+For this basic task, handling very large numbers is not necessary. However, you can add additional checks or limits if you wish to showcase more robust handling.
+
+### 5. How do I test the component?
+
+You can test the component by running your React application and interacting with the buttons to ensure the count updates correctly. For automated testing, you can write unit tests using a testing library like Jest and React Testing Library.
+
+## Submission
+
+Once you have completed Task 1, commit the `Counter.js` file to your forked repository and include a note in your README file explaining how to run and test this component.
+
+Good luck and happy coding!
