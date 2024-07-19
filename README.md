@@ -18,29 +18,35 @@ Create a functional component called `Counter` that displays a count and has two
 
 [Detailed Task 1 Instructions](./Task1.md)
 
-### Task 2: Create a Form Component
+### Task 2: Enhanced Counter Component
 
-Create a functional component called `UserForm` that contains a form with the following fields: name, email, and message. When the form is submitted, display the form data below the form.
+Enhance the `Counter` component created in Task 1 by adding additional features and improving functionality.
 
 [Detailed Task 2 Instructions](./Task2.md)
 
-### Task 3: Fetch and Display Data
+### Task 3: Create a Form Component
 
-Create a functional component called `DataFetcher` that fetches data from an API and displays it in a list. Use the following API endpoint: `https://jsonplaceholder.typicode.com/posts`.
+Create a functional component called `UserForm` that contains a form with the following fields: name, email, and message. When the form is submitted, display the form data below the form.
 
 [Detailed Task 3 Instructions](./Task3.md)
 
-### Task 4: Create a Todo List Component
+### Task 4: Fetch and Display Data
 
-Create a functional component called `TodoList` that allows users to add, remove, and toggle the completion status of todo items.
+Create a functional component called `DataFetcher` that fetches data from an API and displays it in a list. Use the following API endpoint: `https://jsonplaceholder.typicode.com/posts`.
 
 [Detailed Task 4 Instructions](./Task4.md)
 
-### Task 5: Create a Modal Component
+### Task 5: Create a Todo List Component
+
+Create a functional component called `TodoList` that allows users to add, remove, and toggle the completion status of todo items.
+
+[Detailed Task 5 Instructions](./Task5.md)
+
+### Task 6: Create a Modal Component
 
 Create a functional component called `Modal` that displays its children in a modal dialog. Add a button to close the modal.
 
-[Detailed Task 5 Instructions](./Task5.md)
+[Detailed Task 6 Instructions](./Task6.md)
 
 ## Submission
 
