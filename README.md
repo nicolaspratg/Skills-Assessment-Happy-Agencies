@@ -1,4 +1,4 @@
-# React Skills Assessment
+# React Skills Assessment | Tasks 1 & 2 completed successfully!
 
 Welcome to the React Skills Assessment! This assessment is designed to evaluate your skills and knowledge in React development. The tasks are organized from easiest to hardest. Please complete the tasks below and submit your code as a GitHub repository.
 
@@ -12,13 +12,13 @@ Welcome to the React Skills Assessment! This assessment is designed to evaluate 
 
 ## Tasks Overview
 
-### Task 1: Create a Counter Component
+### Task 1: Create a Counter Component ✅
 
 Create a functional component called `Counter` that displays a count and has two buttons: "Increment" and "Decrement". The count should start at 0 and update when the buttons are clicked.
 
 [Detailed Task 1 Instructions](./Task1.md)
 
-### Task 2: Enhanced Counter Component
+### Task 2: Enhanced Counter Component ✅
 
 Enhance the `Counter` component created in Task 1 by adding additional features and improving functionality.
 
